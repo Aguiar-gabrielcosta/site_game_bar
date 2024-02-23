@@ -44,7 +44,8 @@ header {
 
 .navbar-brand a,
 #sobre a,
-#ambientes a {
+#ambientes a,
+#redes-sociais a {
     text-decoration: none;
 }
 
@@ -71,4 +72,18 @@ section p {
     max-height: 150px;
     height: 100%;
     object-fit: cover;
+}
+
+#contato button {
+    background-color: var(--cor-destaque);
+    color: var(--cor-fonte);
+}
+
+#contato form textarea {
+    resize: none;
+}
+
+#redes-sociais li {
+    list-style: none;
+    display: inline;
 }
