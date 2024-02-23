@@ -1,7 +1,7 @@
 :root {
     --cor-bg: #9da4c1;
-    --cor-destaque: #091649;
-    --cor-sessao: #515a7b;
+    --cor-destaque: #011d8e;
+    --cor-sessao: #6e758e;
     --cor-fonte: #fff;
 
     --fonte-padrao: 'Roboto', sans-serif;
@@ -19,6 +19,7 @@ body {
 }
 
 .color-special {
+    font-weight: bold;
     color: var(--cor-destaque);
 }
 
@@ -42,10 +43,26 @@ header {
 }
 
 .navbar-brand a,
-#sobre a {
+#sobre a,
+#ambientes a {
     text-decoration: none;
+}
+
+section p {
+    text-align: justify;
+}
+
+#sobre,
+#cardapio {
+    background-color: var(--cor-sessao);
 }
 
 #sobre-lista li {
     list-style: none;
+}
+
+#ambientes article > img {
+    max-height: 250px;
+    height: 100%;
+    object-fit: cover;
 }
