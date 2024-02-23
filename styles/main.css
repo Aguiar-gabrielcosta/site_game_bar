@@ -1,0 +1,21 @@
+:root {
+    --cor-bg: #8d9cd9;
+    --cor-destaque: #1333b4;
+    --cor-sessao: #515a7b;
+    --cor-fonte: #fff;
+
+    --fonte-padrao: 'Roboto', sans-serif;
+    --fonte-destaque: 'Kode Mono', monospace;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+.text-special {
+    font-family: var(--fonte-destaque);
+}
+
+.color-special {
+    color: var(--cor-destaque);
+}
