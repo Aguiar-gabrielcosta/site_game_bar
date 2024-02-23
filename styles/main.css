@@ -41,6 +41,11 @@ header {
     color: var(--cor-fonte);
 }
 
-.navbar-brand a {
+.navbar-brand a,
+#sobre a {
     text-decoration: none;
+}
+
+#sobre-lista li {
+    list-style: none;
 }
