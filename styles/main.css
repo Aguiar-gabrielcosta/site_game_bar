@@ -66,3 +66,9 @@ section p {
     height: 100%;
     object-fit: cover;
 }
+
+#cardapio .tab-pane img {
+    max-height: 150px;
+    height: 100%;
+    object-fit: cover;
+}
