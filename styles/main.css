@@ -1,7 +1,7 @@
 :root {
-    --cor-bg: #8d9cd9;
-    --cor-destaque: #1333b4;
-    --cor-sessao: #515a7b;
+    --cor-bg: #9da4c1;
+    --cor-destaque: #011d8e;
+    --cor-sessao: #6e758e;
     --cor-fonte: #fff;
 
     --fonte-padrao: 'Roboto', sans-serif;
@@ -10,6 +10,8 @@
 
 body {
     font-family: var(--fonte-padrao);
+    color: var(--cor-fonte);
+    background-color: var(--cor-bg);
 }
 
 .text-special {
@@ -17,5 +19,71 @@ body {
 }
 
 .color-special {
+    font-weight: bold;
     color: var(--cor-destaque);
+}
+
+header {
+    background-color: var(--cor-destaque);
+}
+
+#cabecalho button {
+    background-color: #ccc;
+}
+
+.nav .nav-link.active{
+    color: var(--cor-destaque);
+    background-color: #fff;
+}
+
+.navbar-brand a,
+.nav-link,
+.nav-link:hover {
+    color: var(--cor-fonte);
+}
+
+.navbar-brand a,
+#sobre a,
+#ambientes a,
+#redes-sociais a {
+    text-decoration: none;
+}
+
+section p {
+    text-align: justify;
+}
+
+#sobre,
+#cardapio {
+    background-color: var(--cor-sessao);
+}
+
+#sobre-lista li {
+    list-style: none;
+}
+
+#ambientes article > img {
+    max-height: 250px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#cardapio .tab-pane img {
+    max-height: 150px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#contato button {
+    background-color: var(--cor-destaque);
+    color: var(--cor-fonte);
+}
+
+#contato form textarea {
+    resize: none;
+}
+
+#redes-sociais li {
+    list-style: none;
+    display: inline;
 }
