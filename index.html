@@ -13,12 +13,74 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header>
-
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 text-special">
+                <a href="#">
+                    <i class="bi bi-rocket-takeoff-fill"></i>
+                    Space Game Bar
+                </a>
+            </h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end mt-3" id="nav-menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link active">
+                            <i class="bi bi-houses-fill me-1"></i>
+                            Sobre o bar
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#ambientes" class="nav-link">
+                            <i class="bi bi-door-open-fill  me-1"></i>
+                            Nossos ambientes
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-journal-text me-1"></i>
+                            Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <main data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
         <section id="sobre">
+            <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="media/slides-carousel/bar.jpg" alt="Vista do balcão do bar" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="media/slides-carousel/comida.jpg" alt="Vista do balcão do bar" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="media/slides-carousel/arcade.jpg" alt="Vista do balcão do bar" class="d-block w-100">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
 
         </section>
 

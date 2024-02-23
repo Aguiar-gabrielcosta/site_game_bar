@@ -1,6 +1,6 @@
 :root {
-    --cor-bg: #8d9cd9;
-    --cor-destaque: #1333b4;
+    --cor-bg: #9da4c1;
+    --cor-destaque: #091649;
     --cor-sessao: #515a7b;
     --cor-fonte: #fff;
 
@@ -10,6 +10,8 @@
 
 body {
     font-family: var(--fonte-padrao);
+    color: var(--cor-fonte);
+    background-color: var(--cor-bg);
 }
 
 .text-special {
@@ -18,4 +20,27 @@ body {
 
 .color-special {
     color: var(--cor-destaque);
+}
+
+header {
+    background-color: var(--cor-destaque);
+}
+
+#cabecalho button {
+    background-color: #ccc;
+}
+
+.nav .nav-link.active{
+    color: var(--cor-destaque);
+    background-color: #fff;
+}
+
+.navbar-brand a,
+.nav-link,
+.nav-link:hover {
+    color: var(--cor-fonte);
+}
+
+.navbar-brand a {
+    text-decoration: none;
 }
