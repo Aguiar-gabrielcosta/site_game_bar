@@ -53,6 +53,11 @@ section p {
     text-align: justify;
 }
 
+#carousel .carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
 #sobre,
 #cardapio {
     background-color: var(--cor-sessao);
@@ -64,13 +69,11 @@ section p {
 
 #ambientes article > img {
     max-height: 250px;
-    height: 100%;
     object-fit: cover;
 }
 
 #cardapio .tab-pane img {
-    max-height: 150px;
-    height: 100%;
+    max-height: 200px;
     object-fit: cover;
 }
 
