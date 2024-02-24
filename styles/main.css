@@ -90,3 +90,13 @@ section p {
     list-style: none;
     display: inline;
 }
+
+label.error{
+    color: rgb(120, 0, 0);
+    font-size: 14px;
+    font-style: italic;
+}
+
+label.error::before {
+    content: '*';
+}
